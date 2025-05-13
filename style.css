@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.signin_container {
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.heading {
+    font-weight: 900;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 20px; */
+}
+
+hr {
+    margin: 15px 0px;
+}
+
+.text {
+    border-radius: 6px;
+}
+
+.Login {
+    border-radius: 8px;
+    padding: 5px;
+    width: 200px;
+    height: fit-content;
+}
+.text_field {
+    width: min-content;
+}
+
+.space {
+    margin-bottom: 10px;
+}
+
+.forgot_pass {
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: ;
+}
+
+.Login_button_con {
+    display: flex;
+    justify-content: center;
+}
+
+.signup {
+    font-size: 15px;
+    text-align: center;
+}
