@@ -4,31 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Sign In</title>
+    <title>Login Page</title>
 </head>
 <body>
-    <div class="signin_container">
-        <form action="" method="POST">
-            <div class="heading">
-                <div class="head_content">Login</div>
-            </div><hr>
-            <div class="text_field space">
-                <label>Username</label>
-                <input class="text" type="text" name="text" required>
-            </div>
-            <div class="text_field">
-                <label>Password</label>
-                <input class="text" type="password" name="password" required>
-            </div>
-            <div class="forgot_pass space">
-                <a href="#">Forget Password?</a>
-            </div>
-            <div class="Login_button_con space">
-                <div class="login_button"><input class="Login" name="submit" type="submit" value="Login"></div>
-            </div>
-            <div class="signup">
-                Don't have an account? <a href="#">Signup</a>
-            </div>
+    <div class="login-box">
+        <form action="">
+
+                <h2>Login</h2>
+
+                <div class="input-box">
+                    <input type="email" placeholder="Email" required>
+                </div>
+
+                <div class="input-box">
+                    <input type="password" placeholder="Password" required>
+                </div>
+
+                <div class="forgot-pass">
+                    <a href="#">Forget Password?</a>
+                </div>
+
+                <button type="submit">Login</button>
+
+                <div class="register">
+                    <p>Don't have an account? <a href="./pages/signup/index.html">Register</a></p>
+                </div>
+
         </form>
     </div>
 </body>

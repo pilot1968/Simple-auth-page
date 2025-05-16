@@ -12,63 +12,66 @@ body {
     background-color: #5c71cf9d;
 }
 
-.login-box {
-    background: transparent;
-    box-shadow: 4px 4px;
-    border: 1px solid black;
-    height: 450px;
-    width: 400px;
-    border-radius: 20px;
+.signup-box {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 450px;
+    width: 550px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 4px 4px;
 }
 
 h2 {
-    font-size: 2em;
-    font-weight: 900;
     text-align: center;
-    margin-bottom: 60px
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 16px;
 }
 
 .input-box {
-    margin: 20px 0px;
-    outline: none;
+    width: auto;
+    margin: 20px auto;
 }
 
 .input-box input {
     padding: 5px 10px;
     border: none;
     outline: none;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
     background: transparent;
+}
+
+.long {
+    width: 300px;
+    margin: 30px auto;
 }
 
 .input-box input::placeholder {
     color: black;
 }
 
-.forgot-pass {
-    text-align: right;
-    font-size: 15px;
+button {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-top: 30px;
+    background: transparent;
 }
 
 a {
     text-decoration: none;
-    text-align: right;
 }
 
-button {
-    display: block;
-    width: 250px;
-    margin: 20px auto;
-    border-radius: 20px;
-    padding: 5px 0;
-    background: transparent;
-}
-
-.register {
+.login {
     font-size: 15px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
 }
